@@ -1,0 +1,42 @@
+.personal-div{
+    margin: 0px;
+    height: 400px;
+    width: 400px;
+    border-radius: 24px;
+    background-color: darksalmon;
+    padding: 100px;
+    box-shadow: 10px 20px darkslategray;
+
+}
+
+.name{
+    margin: 0px;
+    color: solid black;
+    text-transform: lowercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 72px;
+}
+
+.about-me{
+    color: solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+}
+
+.img-div{
+    text-align: center;
+    margin: 0px;
+    height: 400px;
+    width: 400px;
+    border-radius: 24px;
+    background-color: darksalmon;
+    padding: 100px;
+    box-shadow: 10px 20px darkslategray;
+    transform: translate(50%,30%)
+}
+
+.img-text {
+    color: solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+}
