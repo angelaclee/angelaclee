@@ -13,6 +13,7 @@ body {
 }
 
 .toc-container {
+    text-transform: lowercase;
     background: antiquewhite;
     padding: 32px;
     line-height: 36px;
@@ -24,6 +25,7 @@ body {
 
 .header {
     text-transform: lowercase;
+    text-shadow: 2px 2px darkslategrey;
     color: antiquewhite;
     height: 40px;
     margin-bottom: 100px;
@@ -37,7 +39,7 @@ ul {
 }
 
 ul li {
-    list-style-type: decimal-leading-zero;
+    list-style-type: lower-roman;
   }
   
   a, a:visited {
@@ -46,5 +48,5 @@ ul li {
   }
   
   a:hover {
-    text-decoration: underline;
+    text-shadow: 2px 2px darkslategrey;
   }
